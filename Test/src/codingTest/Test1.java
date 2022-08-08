@@ -14,7 +14,7 @@ public class Test1 {
 		StringTokenizer st = new StringTokenizer(str, " ");
 
 		int a = Integer.parseInt(st.nextToken());
-		int b = Integer.parseInt(st.nextToken());
+		int b = Integer.parseInt(st.nextToken()); 
 
 		if (a > b) {
 			System.out.println(">");
